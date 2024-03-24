@@ -39,7 +39,9 @@ app.post("/sendmail",function(req,res){
 )
 })
 
-
+app.use("/",(req,res)=>{
+    res.send("Server is running")
+})
 app.listen(5000, function(){
     console.log("Server Starting...")
 })
