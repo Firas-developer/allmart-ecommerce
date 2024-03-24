@@ -26,7 +26,7 @@ function SignUp() {
                     theme: "light",
                 });
 
-                axios.post("https://allmart-ecommerce-server.vercel.app//sendmail", { email: email })
+                axios.post("https://allmart-ecommerce-server.vercel.app/sendmail", { email: email })
             }).catch(err => {
                 alert(err.code)
             })
