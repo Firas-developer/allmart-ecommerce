@@ -1,0 +1,19 @@
+.nav-items ul a {
+    border-bottom: solid 2px #A5F1E9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: #00786f;
+}
+
+.nav-items ul a:hover {
+    transition: .7s;
+    border-bottom: solid 2px #00786f;
+}
+.login-btn:hover{
+    transition: .5s;
+    background-color: #00786f;
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+}
